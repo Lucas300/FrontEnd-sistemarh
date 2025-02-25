@@ -3,6 +3,7 @@ import Home from "./pages/home/Home"
 import CardColaborador from './components/colaborador/cardscolaborador/CardColaborador'
 import NavBar from './components/navbar/NavBar'
 import Footer from './components/footer/Footer'
+import Sobre from './pages/sobre/Sobre'
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/colaborador" element={<CardColaborador />} />
+              <Route path="/sobre" element={<Sobre />} />
+
             </Routes>
           </div>
           <Footer />
