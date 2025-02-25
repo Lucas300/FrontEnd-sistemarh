@@ -10,7 +10,7 @@ function Navbar() {
                 <Link to='/home' className="text-2xl font-bold">Sistema RH</Link>
 
                     <div className='flex gap-4'>
-                    <Link to='/sobre' className='hover:underline'>Sobre</Link>
+                    <Link to='/colaborador' className='hover:underline'>Colaboradores</Link>
                     
                     </div>
                 </div>
