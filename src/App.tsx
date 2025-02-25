@@ -10,6 +10,7 @@ function App() {
           <NavBar />
           <div className="min-h-80vh]">
             <Routes>
+              <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/colaborador" element={<CardColaborador />} />
             </Routes>
