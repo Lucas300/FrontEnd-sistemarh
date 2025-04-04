@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# 👩‍💼 Sistema RH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Sistema RH** é uma aplicação frontend desenvolvida para facilitar a visualização e gestão de colaboradores dentro de uma empresa. O projeto visa proporcionar uma interface clara, responsiva e eficiente para a administração de informações relacionadas a Recursos Humanos.
 
-Currently, two official plugins are available:
+## 📌 Modelo de Negócio
+Sistema voltado à **gestão de pessoas** dentro de empresas, com foco na organização de colaboradores e setores.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📄 Descrição Geral
 
-## Expanding the ESLint configuration
+O Sistema RH permite o gerenciamento visual de informações de funcionários, vagas e setores. Criado com foco em design responsivo e uso de boas práticas de layout, a aplicação entrega uma navegação fluida e moderna ao usuário.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🧩 Entidade Principal
 
-- Configure the top-level `parserOptions` property like this:
+### 👤 Colaborador
+- `id`: Identificador único  
+- `nome`: Nome completo do colaborador  
+- `cargo`: Cargo ocupado na empresa  
+- `departamento`: Setor de atuação  
+- `salário`: Valor salarial do colaborador  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ✨ Funcionalidades Implementadas (Front-End)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **📋 Tela de Listagem de Colaboradores**: Exibe informações básicas como nome, cargo e setor  
+- **🔍 Página de Detalhes**: Mostra dados completos de cada colaborador  
+- **📱 Design Responsivo**: Compatível com diversos tamanhos de tela  
+- **🎨 Estilização Avançada**: Uso de Flexbox, Grid, paleta de cores harmônica e tipografia legível  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🛠️ Tecnologias Utilizadas
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- React.js com TypeScript (Vite)  
+- Tailwind CSS  
+- React Router DOM  
+- Phosphor Icons  
+
+Feito com ❤️ por: 
+- Lucas(EU)
+- [Guilherme](https://github.com/GuilhermeKaludin)
+- [João](https://github.com/jloliveira95)
+- [Juliana](https://github.com/JulianaMonteiro4)
+- [Tainá](https://github.com/tainalara)
